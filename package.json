@@ -1,0 +1,21 @@
+{
+  "name": "stockapp",
+  "version": "1.0.0",
+  "description": "stock market web app",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "lite-server": "^2.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jolin",
+  "license": "ISC"
+}
